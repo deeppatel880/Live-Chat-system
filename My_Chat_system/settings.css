@@ -1,0 +1,84 @@
+h3{
+	text-align: center;
+	font-size: 22px;
+	font-weight: 10px;
+}
+
+#changeuser, #changepass, #deactivate1, #changeinterval{
+	margin: 0 auto;
+	width: 400px;
+	background-color: #EEE;
+	height: auto;
+	padding-bottom: 12px;
+	border-radius: 5px;
+}
+
+#changeuser h4, #changepass h4, #changeinterval h4{
+	margin-top: 5px;
+	font-size: 17px;
+	text-align: center;
+	color: #27ae60;
+
+}
+
+input[type=range]{
+    -webkit-appearance: none;
+    width: 60%;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 300px;
+    height: 5px;
+    background: #ccc;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #27ae60;
+    margin-top: -4px;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #ccc;
+}
+
+#changeusername, #oldpassword, #newpassword, #confirmpassword, #oldpassword1{
+	margin: 4px 25%;
+	border-radius: 3px;
+	border: none;
+	height: 22px;
+	transition-duration: 0.4s;
+	width: 50%;
+	text-align: center;
+}
+
+#changeusername:hover, #changeusername:focus, #oldpassword:hover, #oldpassword:focus, #newpassword:hover, #newpassword:focus, #confirmpassword:hover, #confirmpassword:focus,#oldpassword1:hover,#oldpassword1:focus{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition-duration: 0.4s;
+}
+
+#submit, #submit1, #deactivate{
+	width: auto;
+	margin:20px 35%;
+	border-style: none;
+	color: #FFF;
+	background-color: #27ae60;
+	transition-duration: 0.4s;
+}
+
+#submit:hover, #submit1:hover, #deactivate:hover{
+	color: #27ae60;
+	background-color: #FFF;
+	transition-duration: 0.4s;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
