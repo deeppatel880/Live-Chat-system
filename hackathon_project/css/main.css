@@ -1,0 +1,203 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#logo{
+	text-align: center;
+	background: #2980b9;
+	padding: 38px;
+}
+
+#logo a{
+	text-align: center;
+	text-decoration: none;
+	color: #FFF;
+	font-size: 30px;
+	position: fixed;
+}
+
+#log{
+	height: auto;
+	padding-bottom: 30px;
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 100px;
+	background-color: #EEE;
+	border-radius: 7px;
+	float: left;
+	margin-left: 125px;
+	text-align: center;
+}
+
+#log h3{
+	color: #2980b9;
+}
+
+#username{
+	margin-top: 7%;
+	border-radius: 3px;
+	border: none;
+	height: 22px;
+	transition-duration: 0.4s;
+	width: 50%;
+	text-align: center;
+	color: black;
+}
+#password{
+	color: black;
+	margin-top: 5%;
+	border-radius: 3px;
+	border: none;
+	height: 22px;
+	transition-duration: 0.4s;
+	width: 50%;
+	text-align: center;
+}
+
+#login{
+	width: 20%;
+	background-color: #2980b9;
+	border-style: none;
+	color: #FFF;
+	transition-duration: 0.4s;
+}
+
+#login:hover{
+	color: #2980b9;
+	background-color: #FFF;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition-duration: 0.4s;
+}
+
+
+#susername{
+	color: black;
+	margin-top: 7%;
+	border-radius: 3px;
+	border: none;
+	height: 22px;
+	transition-duration: 0.4s;
+	width: 50%;
+	text-align: center;
+}
+#spassword , #confirmpass{
+	color: black;
+	margin-top: 5%;
+	border-radius: 3px;
+	border: none;
+	height: 22px;
+	transition-duration: 0.4s;
+	width: 50%;
+	text-align: center;
+}
+
+
+#sign{
+	width: 20%;
+	background-color: #2980b9;
+	border-style: none;
+	color: #FFF;
+	transition-duration: 0.4s;
+}
+
+#sign:hover{
+	color: #2980b9;
+	background-color: #FFF;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition-duration: 0.4s;
+}
+
+#signup{
+	height: auto;
+	padding-bottom: 30px;
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 100px;
+	background-color: #EEE;
+	border-radius: 7px;
+	float: right;
+	margin-right: 125px;
+	text-align: center;
+}
+
+#signup h3{
+	color: #2980b9;
+}
+
+
+#username:hover, #username:focus, #susername:hover,#susername:focus,#password:hover,#password:focus, #spassword:hover, #spassword:focus, #confirmpass:hover,#confirmpass:focus{
+	color: #2980b9;
+	background-color: #FFF;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition-duration: 0.4s;
+}
+
+#nav1{
+	background-color: #2980b9;
+	padding: 38px;
+}
+
+#logo1 a{
+	float: left;
+	margin-left: 30px;
+	font-size: 30px;
+	text-decoration: none;
+	color: #FFF;
+}
+
+
+#links a{
+	float: right;
+	margin-right: 30px;
+	font-size: 30px;
+	text-decoration: none;
+	color: #FFF;
+	transition-duration: 0.4s;
+}
+
+#special{
+	transition-duration: 0.4s;
+}
+
+#special a:hover{
+	color: #FFF;
+	padding-bottom: 15px;
+	padding-top: 5px;
+	border-top: 4px solid #FFF;
+	border-bottom: 2px solid #2980b9;
+	transition-duration: 0.4s;
+}
+
+#links img{
+	transition-duration: 0.4s;
+}
+
+#links img:hover {
+    -webkit-animation-name: rotate; 
+    -webkit-animation-duration: 2s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: rotate; 
+    -moz-animation-duration: 2s; 
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    animation-name: rotate; 
+    animation-duration: 1.5s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@-webkit-keyframes rotate {
+    from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(360deg);}
+}
+
+@-moz-keyframes rotate {
+    from {-moz-transform: rotate(0deg);}
+    to {-moz-transform: rotate(360deg);}
+}
+
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
